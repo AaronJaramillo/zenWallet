@@ -10,8 +10,8 @@ Run with:
 $ kivy zenMain.py
 ```
 
-![alt tag](Images/Search Results.jpg)
+![alt tag](Images/main.jpg)
 
-![alt tag](Images/Search Results.jpg)
+![alt tag](Images/Menu.jpg)
 
-![alt tag](Images/Search Results.jpg)
+![alt tag](Images/WIF.jpg)
