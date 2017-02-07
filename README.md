@@ -15,3 +15,7 @@ $ kivy zenMain.py
 ![alt tag](Images/Menu.jpg)
 
 ![alt tag](Images/WIF.jpg)
+
+##TO DO
+
+Reimplement the whole thing with Libbitcoin.
