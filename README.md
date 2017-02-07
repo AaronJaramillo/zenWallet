@@ -6,6 +6,6 @@ Uses kivy for it's GUI. Uses pybitcointools for bitcoin operations.
 
 Run with:
 
-'''
+```
 $ kivy zenMain.py
-'''
+```
