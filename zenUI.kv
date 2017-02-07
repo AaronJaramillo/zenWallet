@@ -1,0 +1,185 @@
+
+####for Debugging
+# <Widget>:
+#     canvas.after:
+#         Color:
+#             rgb: 1,0,0
+#         Line:
+#             rectangle: self.x+1,self.y+1,self.width-1,self.height-1
+#         Color:
+#             rgb: 1,1,1
+
+<brainWallet>:
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: 1, 1 
+        BoxLayout:
+            size_hint: 1, .25
+            BoxLayout:
+                size_hint: .4, 1
+                orientation: 'vertical'
+                Label:
+                    size_hint: 1, .25
+
+                Label:
+                    size_hint: 1, .05
+                    text: 'Show Password'
+                Switch:
+                    size_hint: 1, .3
+                    active: False
+                    on_active: root.ids.txt_input.password = False
+                Label:
+                    size_hint: 1, .4
+            Label:
+                size_hint: .6, 1
+        TextInput:
+            id: txt_input
+            size_hint: 1, .05 
+            multiline: False
+            password: True
+            focus: True
+        Button:
+            size_hint: 1, .1
+            text: "Hash zenWallet"
+            on_press: app.hashIt(txt_input.text)
+            on_release: app.root.current = "walleter"
+        Label:
+            markup: True
+            size_hint: 1, .4
+            
+  
+<walletScreen>:
+    BoxLayout: 
+        orientation: 'vertical'
+        size_hint: 1, 1
+        # Label: 
+        #     size_hint: 1, .1
+        Label:
+            size_hint: 1, .2
+            font_size: '65sp'
+            text: str(app.brain.balance) + ' mBTC'
+            halign: 'center'
+            valign: 'middle'
+        # Label:
+        #     size_hint: 1, .05
+        # BoxLayout:
+        #     orientation: 'vertical'
+        #     size_hint: 1, .75
+            # Label:
+            #     size_hint: .1, 1
+            #     markup: True
+        QRCodeWidget:
+            data: str(app.brain.addr)
+            id: addy
+            size_hint: 1, .4
+            # Label:
+            #     size_hint: .1, 1
+            #     markup: True
+        # BoxLayout:
+        #     orientation: 'vertical'
+        #     size_hint: 1, .3 
+            # Label:
+            #     size_hint: 1, .1
+            #     markup: True
+        Label:
+            size_hint: 1, .4
+            font_size: '15sp'
+            halign: 'center'
+            valign: 'middle'               
+            text: str(app.brain.addr)
+            # Label:
+            #     size_hint: 1, .7
+            #     markup: True
+    MenuSpawner:
+        timeout: .8
+        menu_args:
+            dict(
+            creation_direction=-1,
+            radius=30,
+            creation_timeout=.4,
+            choices=[
+            dict(text='Send Bitcoin', index=1, callback=app.sendBitcoin),
+            dict(text='Wallet Import Format', index=2, callback=app.wifConfirm),
+            dict(text='Scan QR', index=3, callback=app.scanQR),
+            ])
+<sendScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint:  1, .25
+            BoxLayout:
+                size_hint: 1, .28
+                Label: 
+                    size_hint: 1, 1
+                    markup: True
+                    text: "Send Bitcoin"
+            BoxLayout:
+                size_hint: 1, .5
+                Label: 
+                    size_hint: .75, 1
+                    text: 'Amount'
+                Label:
+                    size_hint: .25, 1
+                    text: 'Fee'
+            BoxLayout:
+                size_hint: 1, .22
+                TextInput: 
+                    size_hint: .7, 1
+                    id: Amount
+                    multiline: False
+                    password: False
+                    focus: True                    
+                TextInput:
+                    size_hint: .3, 1
+                    id: Fee
+                    multiline: False
+                    password: False
+                    focus: True
+        BoxLayout:
+            size_hint: 1, .5 
+            Label: 
+                markup: True
+                size_hint: 1, .5 
+                text: "placholder QR"
+        BoxLayout:
+            size_hint: 1, .25
+            BoxLayout: 
+                size_hint: .75, 1
+                orientation: 'vertical'
+                Label: 
+                    size_hint: 1, .75
+                    text: app.status
+                TextInput:
+                    size_hint: 1, .25
+                    id: payee
+                    multiline: False
+                    text: "Payee"
+            Button:
+                size_hint: .25, 1
+                text: '0'
+                on_press: app.fireTX(payee, Amount, Fee)
+<wifScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: 1, 1
+        Label:
+            size_hint: 1, .2
+            text: "Wallet Import Format"
+        QRCodeWidget:
+            data: str(app.brain.wifPriv)
+            size_hint: 1, .4
+        Label:
+            size_hint: 1, .4 
+            font_size: '10sp'
+            text: str(app.brain.wifPriv)
+    MenuSpawner:
+        timeout: .8
+        menu_args:
+            dict(
+            creation_direction=-1,
+            radius=30,
+            creation_timeout=.4,
+            choices=[
+            dict(text='Back', index=1, callback=app.History),
+            ])

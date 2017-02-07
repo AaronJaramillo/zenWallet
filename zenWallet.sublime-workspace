@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"url",
+				"urlopen	function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "zenMain.py",
+			"settings":
+			{
+				"buffer_size": 2528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "zenUI.kv",
+			"settings":
+			{
+				"buffer_size": 4971,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"kivy",
+				"Set Syntax: Kivy Syntax"
+			],
+			[
+				"pack ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/AaronJaramillo/Desktop/PythonProgramming/ffscrape.py",
+		"/Users/AaronJaramillo/Desktop/zenWallet/zenUI.kv",
+		"/Users/AaronJaramillo/Desktop/zenWallet/zenMain.py",
+		"/Users/AaronJaramillo/Desktop/zenWallet/brainWallet.py",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/AaronJaramillo/Desktop/bithacks",
+		"/Users/AaronJaramillo/Dropbox/001_PS2/bomb.c",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/User/SublimeGDB.sublime-settings",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/Users/AaronJaramillo/Desktop/okc.py",
+		"/Users/AaronJaramillo/Desktop/CannaDex/cannabisAPI.py",
+		"/Users/AaronJaramillo/garden.modernmenu/__init__.py",
+		"/Users/AaronJaramillo/Dropbox/01_Virtual_Machine/Problem_Set_1/bits.c",
+		"/Users/AaronJaramillo/Desktop/zenWallet/libs/garden/garden.qrcode/__init__.py",
+		"/Users/AaronJaramillo/Desktop/zenWallet/libs/garden/garden.qrcode/qrcodewidget.py",
+		"/Users/AaronJaramillo/Desktop/CannaDex/kivyMain.kv",
+		"/Users/AaronJaramillo/Desktop/CannaDex/kivyMain.py",
+		"/Users/AaronJaramillo/Desktop/zenMain.py",
+		"/Users/AaronJaramillo/Desktop/zenUI.kv",
+		"/Users/AaronJaramillo/Desktop/brainWallet.py",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/AaronJaramillo/Dropbox/01_Virtual_Machine/Problem_Set_1/bits.h",
+		"/Users/AaronJaramillo/Desktop/addr.cpp",
+		"/Users/AaronJaramillo/Desktop/debt.py",
+		"/Users/AaronJaramillo/Desktop/CannaDex/searchresults.kv",
+		"/Users/AaronJaramillo/Desktop/kivyFile.kv",
+		"/Users/AaronJaramillo/Desktop/CannaDex/connect.py",
+		"/Users/AaronJaramillo/Desktop/CannaDex/CannaDex.kv",
+		"/Users/AaronJaramillo/Desktop/simplekivy.py",
+		"/Users/AaronJaramillo/Desktop/simpleKivy3.kv.py",
+		"/Users/AaronJaramillo/Desktop/debtEval.py",
+		"/Users/AaronJaramillo/Desktop/LaBouch.py",
+		"/Users/AaronJaramillo/Desktop/MonteCarlo.py",
+		"/Users/AaronJaramillo/Desktop/Pandas.py",
+		"/Users/AaronJaramillo/Desktop/ffscrape.py",
+		"/Users/AaronJaramillo/Desktop/bitbond.py",
+		"/Users/AaronJaramillo/Desktop/qundlapi.cpp",
+		"/Users/AaronJaramillo/Desktop/lever.py",
+		"/Users/AaronJaramillo/Desktop/simplekivy.kv",
+		"/Users/AaronJaramillo/Desktop/Tbreak.py",
+		"/Users/AaronJaramillo/Desktop/HashTable Recitation.cpp",
+		"/private/var/folders/7_/vx5z3nsn4px5kbzydnjm2_2m0000gn/T/fz3temp-2/main.html",
+		"/Users/AaronJaramillo/Downloads/binary_tree.cc",
+		"/Users/AaronJaramillo/Desktop/TwitterSent.py",
+		"/Users/AaronJaramillo/Desktop/SentTest.py",
+		"/Users/AaronJaramillo/Desktop/sentiment_mod.py",
+		"/Users/AaronJaramillo/Desktop/FullCourseNLTK.py",
+		"/Users/AaronJaramillo/Desktop/: This file is released without license and may b.cpp",
+		"/Users/AaronJaramillo/Desktop/LLstack.cpp",
+		"/Users/AaronJaramillo/Desktop/DSMidterm.cpp",
+		"/Users/AaronJaramillo/Desktop/Assignment3.cpp",
+		"/Users/AaronJaramillo/Desktop/kivyProject.py",
+		"/Users/AaronJaramillo/Desktop/classes.cpp",
+		"/Users/AaronJaramillo/Desktop/LLstack.h",
+		"/Users/AaronJaramillo/Desktop/classes.h",
+		"/Users/AaronJaramillo/Desktop/gop.txt",
+		"/Users/AaronJaramillo/Desktop/untitled.py",
+		"/Users/AaronJaramillo/Desktop/rhymeTest.py",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/AaronJaramillo/Dropbox/02_linked_list/linked_list.h",
+		"/Users/AaronJaramillo/Dropbox/02_linked_list/linked_list.cc",
+		"/Users/AaronJaramillo/Desktop/Desktop_2015/Microeconomics, 4th Edition - Besanko, David IM_SM/SM/BB_Micro_4E_SolutionsManual_Ch04.doc",
+		"/Users/AaronJaramillo/Downloads/02_linked_list/linked_list.h",
+		"/Users/AaronJaramillo/Downloads/02_linked_list/linked_list.cc",
+		"/Users/AaronJaramillo/Downloads/02_linked_list/linked_list_test.cc",
+		"/Users/AaronJaramillo/Desktop/nltkpractices.py",
+		"/Users/AaronJaramillo/Desktop/HoldThePen/content_managment.py",
+		"/Users/AaronJaramillo/Desktop/HoldThePen/dbconnect.py",
+		"/Users/AaronJaramillo/Library/Application Support/Sublime Text 3/Packages/User/FTPSync.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"()\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "zenMain.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "zenUI.kv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kivy Language/kv.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 598.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Monte Carlo Simulation:"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
